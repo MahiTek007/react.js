@@ -1,0 +1,61 @@
+@MahiTek007 ➜ /workspaces/react.js (main) $ npx create-react-app basicreact01
+
+Creating a new React app in /workspaces/react.js/basicreact01.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+added 1463 packages in 57s
+
+242 packages are looking for funding
+  run `npm fund` for details
+
+Installing template dependencies using npm...
+
+added 69 packages, and changed 1 package in 7s
+
+246 packages are looking for funding
+  run `npm fund` for details
+Removing template package using npm...
+
+
+removed 1 package, and audited 1532 packages in 3s
+
+246 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (2 moderate, 6 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+Success! Created basicreact01 at /workspaces/react.js/basicreact01
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd basicreact01
+  npm start
+
+Happy hacking!
+
+@MahiTek007 ➜ /workspaces/react.js (main) $ cd basicreact01
+@MahiTek007 ➜ /workspaces/react.js/basicreact01 (main) $ dir
+README.md     package-lock.json  public
+node_modules  package.json       src
