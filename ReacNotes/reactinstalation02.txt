@@ -1,0 +1,30 @@
+@MahiTek007 ➜ /workspaces/react.js (main) $ npm create vite@latest
+✔ Project name: …  vitereact01
+✔ Package name: … -vitereact01
+✔ Select a framework: › React
+✔ Select a variant: › JavaScript
+
+Scaffolding project in /workspaces/react.js/vitereact01...
+
+Done. Now run:
+
+  cd vitereact01
+  npm install
+  npm run dev
+
+@MahiTek007 ➜ /workspaces/react.js/vitereact01 (main) $ dir
+README.md  index.html  package.json  public  src  vite.config.js
+@MahiTek007 ➜ /workspaces/react.js/vitereact01 (main) $ npm i
+
+@MahiTek007 ➜ /workspaces/react.js/vitereact01 (main) $ npm run dev
+
+> -vitereact01@0.0.0 dev
+> vite
+
+
+  VITE v5.0.8  ready in 945 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+

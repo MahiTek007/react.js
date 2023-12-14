@@ -59,3 +59,43 @@ Happy hacking!
 @MahiTek007 ➜ /workspaces/react.js/basicreact01 (main) $ dir
 README.md     package-lock.json  public
 node_modules  package.json       src
+
+@MahiTek007 ➜ /workspaces/react.js (main) $ cd basicreact01
+@MahiTek007 ➜ /workspaces/react.js/basicreact01 (main) $ npm run build
+
+> basicreact01@0.1.0 build
+> react-scripts build
+
+Creating an optimized production build...
+One of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it may break at any time.
+
+babel-preset-react-app is part of the create-react-app project, which
+is not maintianed anymore. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.
+  
+Compiled successfully.
+
+File sizes after gzip:
+
+  46.63 kB  build/static/js/main.6a278229.js
+  1.78 kB   build/static/js/787.1134da01.chunk.js
+  515 B     build/static/css/main.f855e6bc.css
+
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  npm install -g serve
+  serve -s build
+
+Find out more about deployment here:
+
+  https://cra.link/deployment
